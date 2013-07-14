@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutBox_String1" xml:space="preserve">
+    <value>PAME is a free Pascal IDE for students. For comments, questions or bugs contact me at: samartzidis@gmail.com.</value>
+  </data>
+  <data name="FindAndReplaceForm_String1" xml:space="preserve">
+    <value>Search text "{0}" not found</value>
+  </data>
+  <data name="FindAndReplaceForm_String10" xml:space="preserve">
+    <value>No text given to search!</value>
+  </data>
+  <data name="FindAndReplaceForm_String11" xml:space="preserve">
+    <value>Text not found</value>
+  </data>
+  <data name="FindAndReplaceForm_String12" xml:space="preserve">
+    <value>No occurences found</value>
+  </data>
+  <data name="FindAndReplaceForm_String13" xml:space="preserve">
+    <value>{0} occurences were replaced</value>
+  </data>
+  <data name="FindAndReplaceForm_String6" xml:space="preserve">
+    <value>Find &amp; replace</value>
+  </data>
+  <data name="FindAndReplaceForm_String7" xml:space="preserve">
+    <value>Find</value>
+  </data>
+  <data name="FindAndReplaceForm_String8" xml:space="preserve">
+    <value>(selection only)</value>
+  </data>
+  <data name="FindAndReplaceForm_String9" xml:space="preserve">
+    <value>Text not found</value>
+  </data>
+  <data name="MainForm_StatusBuilding" xml:space="preserve">
+    <value>Compiling</value>
+  </data>
+  <data name="MainForm_StatusCompilationFailed" xml:space="preserve">
+    <value>Compilation failed</value>
+  </data>
+  <data name="MainForm_StatusCompilationSucceeded" xml:space="preserve">
+    <value>Compilation succeeded</value>
+  </data>
+  <data name="MainForm_StatusDebugger" xml:space="preserve">
+    <value>Debugger</value>
+  </data>
+  <data name="MainForm_StatusReady" xml:space="preserve">
+    <value>Ready</value>
+  </data>
+  <data name="MainForm_String1" xml:space="preserve">
+    <value>Executable file "{0}" not found</value>
+  </data>
+  <data name="MainForm_String11" xml:space="preserve">
+    <value>Failed to open file "{0}": {1}</value>
+  </data>
+  <data name="MainForm_String12" xml:space="preserve">
+    <value>Failed to communicate properly with the debugger: "{0}". Please check that the -g flag (generate debug information) is set in the compiler options. This error could also be caused by an incompatible gdb version. Ensure that you are using version 6.x.</value>
+  </data>
+  <data name="MainForm_String14" xml:space="preserve">
+    <value>Could not execute compiler: {0}. Please check the compiler path in the application settings.</value>
+  </data>
+  <data name="MainForm_String15" xml:space="preserve">
+    <value>Your version is "{0}". Would you like to download the latest version "{1}"?</value>
+  </data>
+  <data name="MainForm_String16" xml:space="preserve">
+    <value>You currently have the latest version</value>
+  </data>
+  <data name="MainForm_String17" xml:space="preserve">
+    <value>Failed to check for updates: "{0}". Please check your internet connection</value>
+  </data>
+  <data name="MainForm_String18" xml:space="preserve">
+    <value>Program terminated</value>
+  </data>
+  <data name="MainForm_String19" xml:space="preserve">
+    <value>Line: </value>
+  </data>
+  <data name="MainForm_String20" xml:space="preserve">
+    <value>Col: </value>
+  </data>
+  <data name="MainForm_String21" xml:space="preserve">
+    <value>Failed to initialise console: {0}</value>
+  </data>
+  <data name="MainForm_String3" xml:space="preserve">
+    <value>Would you like to save the document "{0}"?</value>
+  </data>
+  <data name="MainForm_String4" xml:space="preserve">
+    <value>File "{0}" not found</value>
+  </data>
+  <data name="MainForm_String6" xml:space="preserve">
+    <value>Failed to start "{0}"</value>
+  </data>
+  <data name="MainForm_String7" xml:space="preserve">
+    <value>Failed to start "{0}": {1}</value>
+  </data>
+  <data name="MainForm_String8" xml:space="preserve">
+    <value>Could not execute debugger "{0}": {1}.</value>
+  </data>
+  <data name="MainForm_String9" xml:space="preserve">
+    <value>Debugging failed for file "{0}": {1}</value>
+  </data>
+  <data name="SettingsAdapter_String15" xml:space="preserve">
+    <value>Application</value>
+  </data>
+  <data name="SettingsAdapter_String16" xml:space="preserve">
+    <value>Show splash screen</value>
+  </data>
+  <data name="SettingsAdapter_String17" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="SettingsAdapter_String18" xml:space="preserve">
+    <value>Editor</value>
+  </data>
+  <data name="SettingsAdapter_String19" xml:space="preserve">
+    <value>Show tabs and spaces</value>
+  </data>
+  <data name="SettingsAdapter_String20" xml:space="preserve">
+    <value>Show line numbers</value>
+  </data>
+  <data name="SettingsAdapter_String21" xml:space="preserve">
+    <value>Show line changes</value>
+  </data>
+  <data name="SettingsAdapter_String22" xml:space="preserve">
+    <value>Highlight current line</value>
+  </data>
+  <data name="SettingsAdapter_String23" xml:space="preserve">
+    <value>Highlight matching brackets</value>
+  </data>
+  <data name="SettingsAdapter_String24" xml:space="preserve">
+    <value>Tabs size</value>
+  </data>
+  <data name="SettingsAdapter_String25" xml:space="preserve">
+    <value>Font</value>
+  </data>
+  <data name="SettingsAdapter_String26" xml:space="preserve">
+    <value>Compiler</value>
+  </data>
+  <data name="SettingsAdapter_String27" xml:space="preserve">
+    <value>Compiler path</value>
+  </data>
+  <data name="SettingsAdapter_String28" xml:space="preserve">
+    <value>Path of "fpc.exe" executable</value>
+  </data>
+  <data name="SettingsAdapter_String29" xml:space="preserve">
+    <value>Debugger path</value>
+  </data>
+  <data name="SettingsAdapter_String30" xml:space="preserve">
+    <value>Path of "gdb.exe" executable</value>
+  </data>
+  <data name="SettingsAdapter_String31" xml:space="preserve">
+    <value>FreePascal compiler flags</value>
+  </data>
+  <data name="SettingsAdapter_String32" xml:space="preserve">
+    <value>Consult the FreePascal manual for details. The -gp -vb flags are required by PAME for proper operation. The -Fr flag specifies the compiler error messages file. You can remove this if you want English by default.</value>
+  </data>
+  <data name="SettingsAdapter_String33" xml:space="preserve">
+    <value>Execution console</value>
+  </data>
+  <data name="SettingsAdapter_String34" xml:space="preserve">
+    <value>Background color</value>
+  </data>
+  <data name="SettingsAdapter_String35" xml:space="preserve">
+    <value>Foreground color</value>
+  </data>
+  <data name="SettingsAdapter_String36" xml:space="preserve">
+    <value>Console codepage</value>
+  </data>
+  <data name="SettingsAdapter_String37" xml:space="preserve">
+    <value>1250 (Central Europe), 1251 (Cyrillic), 1252 (Latin I), 1253 (Greek), 1254 (Turkish), 1255 (Hebrew), 1256 (Arabic), 1257 (Baltic), 1258 (Vietnam), 874 (Thai)</value>
+  </data>
+  <data name="SettingsAdapter_String38" xml:space="preserve">
+    <value>Topmost debug console</value>
+  </data>
+  <data name="SettingsAdapter_String39" xml:space="preserve">
+    <value>Debugger</value>
+  </data>
+  <data name="SettingsAdapter_String40" xml:space="preserve">
+    <value>For this change to take effect you have to restart PAME</value>
+  </data>
+  <data name="SettingsAdapter_String41" xml:space="preserve">
+    <value>Watch variables while debugging</value>
+  </data>
+  <data name="SettingsAdapter_String42" xml:space="preserve">
+    <value>Code folding</value>
+  </data>
+</root>

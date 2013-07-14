@@ -1,0 +1,72 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Pame.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ShowSpaces" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="ShowNewlines" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="ShowLineNumbers" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="HighlightCurrentRow" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="HighlightMatchingBrackets" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="TabSize" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">4</Value>
+    </Setting>
+    <Setting Name="Font" Type="System.Drawing.Font" Scope="User">
+      <Value Profile="(Default)">Courier New, 9.75pt</Value>
+    </Setting>
+    <Setting Name="FpcPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">$(AppDir)\EmbeddedFPC\bin\i386-win32\fpc.exe</Value>
+    </Setting>
+    <Setting Name="FpcFlags" Type="System.String" Scope="User">
+      <Value Profile="(Default)">-gp -vb -Fr"$(AppDir)\EmbeddedFPC\msg\fpc.el.msg"</Value>
+    </Setting>
+    <Setting Name="GdbPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">$(AppDir)\EmbeddedFPC\bin\i386-win32\gdb.exe</Value>
+    </Setting>
+    <Setting Name="ShowSplashScreen" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="Language" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Greek</Value>
+    </Setting>
+    <Setting Name="ConsoleCodepage" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1253</Value>
+    </Setting>
+    <Setting Name="ConsoleFont" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Lucida Console</Value>
+    </Setting>
+    <Setting Name="ConsoleBackgroundColor" Type="System.ConsoleColor" Scope="User">
+      <Value Profile="(Default)">Black</Value>
+    </Setting>
+    <Setting Name="ConsoleForegroundColor" Type="System.ConsoleColor" Scope="User">
+      <Value Profile="(Default)">White</Value>
+    </Setting>
+    <Setting Name="TopmostDebugConsole" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="WatchVariables" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="CodeFolding" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="WindowLocation" Type="System.Drawing.Point" Scope="User">
+      <Value Profile="(Default)">0, 0</Value>
+    </Setting>
+    <Setting Name="WindowSize" Type="System.Drawing.Size" Scope="User">
+      <Value Profile="(Default)">800, 600</Value>
+    </Setting>
+    <Setting Name="WindowState" Type="System.Windows.Forms.FormWindowState" Scope="User">
+      <Value Profile="(Default)">Normal</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
