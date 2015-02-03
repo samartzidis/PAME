@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding ="utf-8"?>
+<SyntaxDefinition name = "Pascal" extensions = ".pas">
+	
+	<Digits name = "Digits" bold = "false" italic = "false" color = "Red"/>
+
+	<RuleSets>
+		<RuleSet ignorecase="true">
+			<Delimiters>&amp;&lt;&gt;~!@%^*()-+=|\#/{}[]:;"' ,	?</Delimiters>
+			
+		  <Span name = "LineComment" bold = "false" italic = "false" color = "Green" stopateol = "true">
+				<Begin>//</Begin>
+		  </Span>
+
+			<Span name = "MultiLineComment" bold = "false" italic = "false" color = "Green">
+				<Begin>{</Begin><End>}</End>
+			</Span>
+		   
+			<Span name = "String" bold = "false" italic = "false" color = "Maroon" stopateol = "true">
+				<Begin>'</Begin><End>'</End>
+			</Span>
+			
+			<MarkPrevious bold = "true" italic = "false" color = "SteelBlue">(</MarkPrevious>
+      
+			<KeyWords name = "Keywords" bold="true" italic="false" color="Blue">
+        <Key word = "abs"/>
+        <Key word = "absolute"/>
+        <Key word = "abstract"/>
+        <Key word = "addr"/>
+        <Key word = "alias"/>
+        <Key word = "and"/>
+        <Key word = "array"/>
+        <Key word = "as"/>
+        <Key word = "assembler"/>
+        <Key word = "asm"/>
+        <Key word = "begin"/>
+        <Key word = "break"/>
+        <Key word = "case"/>
+        <Key word = "cdecl"/>
+        <Key word = "class"/>
+        <Key word = "const"/>
+        <Key word = "constructor"/>
+        <Key word = "continue"/>
+        <Key word = "cppdecl"/>
+        <Key word = "default"/>
+        <Key word = "destructor"/>
+        <Key word = "dispinterface"/>
+        <Key word = "dispose"/>
+        <Key word = "div"/>
+        <Key word = "do"/>
+        <Key word = "downto"/>
+        <Key word = "else"/>
+        <Key word = "end"/>
+        <Key word = "end."/>
+        <Key word = "except"/>
+        <Key word = "exit"/>
+        <Key word = "export"/>
+        <Key word = "exports"/>
+        <Key word = "external"/>
+        <Key word = "false"/>
+        <Key word = "far"/>
+        <Key word = "far16"/>
+        <Key word = "file"/>
+        <Key word = "finalization"/>
+        <Key word = "finally"/>
+        <Key word = "for"/>
+        <Key word = "forward"/>
+        <Key word = "function"/>
+        <Key word = "goto"/>
+        <Key word = "if"/>
+        <Key word = "implementation"/>
+        <Key word = "in"/>
+        <Key word = "index"/>
+        <Key word = "inherited"/>
+        <Key word = "initialization"/>
+        <Key word = "inline"/>
+        <Key word = "interface"/>
+        <Key word = "is"/>
+        <Key word = "label"/>
+        <Key word = "library"/>
+        <Key word = "local"/>
+        <Key word = "mod"/>
+        <Key word = "name"/>
+        <Key word = "near"/>
+        <Key word = "new"/>
+        <Key word = "nil"/>
+        <Key word = "nostackframe"/>
+        <Key word = "not"/>
+        <Key word = "object"/>
+        <Key word = "of"/>
+        <Key word = "oldfpccall"/>
+        <Key word = "on"/>
+        <Key word = "operator"/>
+        <Key word = "or"/>
+        <Key word = "out"/>
+        <Key word = "packed"/>
+        <Key word = "pascal"/>
+        <Key word = "private"/>
+        <Key word = "procedure"/>
+        <Key word = "program"/>
+        <Key word = "property"/>
+        <Key word = "protected"/>
+        <Key word = "public"/>
+        <Key word = "published"/>
+        <Key word = "raise"/>
+        <Key word = "record"/>
+        <Key word = "register"/>
+        <Key word = "reintroduce"/>
+        <Key word = "repeat"/>
+        <Key word = "resourcestring"/>
+        <Key word = "safecall"/>
+        <Key word = "self"/>
+        <Key word = "set"/>
+        <Key word = "shl"/>
+        <Key word = "shr"/>
+        <Key word = "softfloat"/>
+        <Key word = "stdcall"/>
+        <Key word = "string"/>
+        <Key word = "then"/>
+        <Key word = "threadvar"/>
+        <Key word = "to"/>
+        <Key word = "true"/>
+        <Key word = "try"/>
+        <Key word = "type"/>
+        <Key word = "unit"/>
+        <Key word = "until"/>
+        <Key word = "uses"/>
+        <Key word = "var"/>
+        <Key word = "virtual"/>
+        <Key word = "while"/>
+        <Key word = "with"/>
+        <Key word = "xor"/>
+      
+        <Key word = "double"/>
+        <Key word = "integer"/>
+        <Key word = "string"/>
+        <Key word = "real"/>
+        <Key word = "char"/>
+        <Key word = "boolean"/>
+        <Key word = "extended"/>
+        <Key word = "longint"/>
+        <Key word = "shortint"/>
+        
+			</KeyWords>
+			
+		</RuleSet>
+		
+	</RuleSets>
+</SyntaxDefinition>
